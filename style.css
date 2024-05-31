@@ -1,0 +1,65 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	padding-top: 3rem;
+}
+
+.test-title {
+	margin-bottom: 1rem;
+	font-weight: bold;
+	text-align: center;
+}
+
+#order-box {
+	display: none;
+	flex-direction: column;
+	margin: auto;
+	width: 450px;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 2rem;
+}
+
+#thank-you-img {
+	height: 200px;
+	width: 200px;
+	margin-bottom: 1rem;
+}
+
+#order-box {
+	text-wrap: wrap;
+	text-align: center;
+}
+
+#tip-jar {
+	margin: auto;
+	width: fit-content;
+}
+
+.tip-button,
+.no-tip-button {
+	background-color: cornflowerblue;
+	color: white;
+	font-weight: bold;
+	padding: 1rem 2rem;
+	border: none;
+	cursor: pointer;
+}
+
+.tip-button:hover,
+.no-tip-button:hover {
+	background-color: rgb(91, 134, 215);
+}
+
+.tip-button:active,
+.no-tip-button:active {
+	background-color: rgb(131, 163, 222);
+}
+
+.no-tip-button {
+	width: 100%;
+	margin-top: 0.5rem;
+}
