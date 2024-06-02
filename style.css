@@ -5,6 +5,7 @@
 
 body {
 	padding-top: 3rem;
+	position: relative;
 }
 
 .test-title {
@@ -49,6 +50,10 @@ body {
 	cursor: pointer;
 }
 
+.tip-button {
+	width: 150px;
+}
+
 .tip-button:hover,
 .no-tip-button:hover {
 	background-color: rgb(91, 134, 215);
@@ -62,4 +67,15 @@ body {
 .no-tip-button {
 	width: 100%;
 	margin-top: 0.5rem;
+}
+
+#sad-cat-container {
+	position: absolute;
+}
+
+.sad-cat-img {
+	height: 200px;
+	width: 200px;
+	object-fit: cover;
+	position: absolute;
 }
